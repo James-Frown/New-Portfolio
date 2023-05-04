@@ -1,0 +1,93 @@
+.Nav__Container {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.Nav__Logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.Nav__Logo:hover {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.btn {
+    display: none;
+    color: #ffffff;
+}
+
+.Nav__Menu__Desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.Nav__Item__Desktop {
+    list-style: none;
+}
+
+.Nav__Link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.Nav__Link:hover {
+    color: #ffffff;
+    font-size: 20px;
+    border-bottom: solid white 2px;
+}
+
+.Nav-Button {
+    background-color: white;
+    transition: 0.3s ease;
+    padding: 0.3rem;
+}
+
+.Nav-Button-Link {
+    color: #242424;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Nav-Button:hover {
+    background-color: #242424;
+    border: solid #242424 3px;
+}
+
+.Nav-Button-Link:hover {
+    color: #ffffff;
+    background-color: #242424;
+    font-size: 18px;
+    padding: 0.3rem;
+}
+
+@media (max-width: 800px) {
+    .btn {
+        display: contents;
+        color: #ffffff;
+    }
+    .Nav__Menu__Desktop {
+        display: none;
+    }
+    .Nav__Menu__Mobile {
+        display: flex;
+        flex-direction: column;
+    }
+}

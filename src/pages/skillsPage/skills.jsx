@@ -1,3 +1,5 @@
+
+// Element Styling import
 import './skills.css';
 
 const Skills = () => {

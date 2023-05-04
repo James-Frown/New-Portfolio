@@ -1,3 +1,5 @@
+
+// Element Styling import
 import './projects.css';
 
 const Projects = () => {

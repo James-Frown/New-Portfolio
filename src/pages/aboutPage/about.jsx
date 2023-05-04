@@ -1,3 +1,6 @@
+
+
+// Element Styling import
 import './about.css';
 
 const About = () => {
