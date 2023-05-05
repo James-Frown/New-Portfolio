@@ -28,10 +28,9 @@ const MobileNav = () => {
                     </a>
                 </li>
                 <li className="Nav__Item__Mobile">
-                    <a href="#Pricing" className="Nav__Link">Pricing</a>
-                </li>
-                <li className="Nav__Item__Mobile">
-                    <a href="#Contact" className="Nav__Link">Contact Us</a>
+                    <a className="Nav-CTA-Link" href="mailto:2022privateequity@gmail.com" target="_blank" rel="noreferrer">
+                        Contact
+                    </a>
                 </li>
             </ul>
         </>

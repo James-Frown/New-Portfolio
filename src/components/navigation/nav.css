@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 8rem;
 }
 
 .Nav__Logo {
@@ -35,7 +35,20 @@
     gap: 2rem;
 }
 
+.Nav__Menu__Mobile {
+    display: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
 .Nav__Item__Desktop {
+    list-style: none;
+}
+
+.Nav__Item__Mobile {
     list-style: none;
 }
 
@@ -50,35 +63,30 @@
 .Nav__Link:hover {
     color: #ffffff;
     font-size: 20px;
-    border-bottom: solid white 2px;
 }
 
-.Nav-Button {
-    background-color: white;
-    transition: 0.3s ease;
-    padding: 0.3rem;
-}
-
-.Nav-Button-Link {
+.Nav-CTA-Link {
     color: #242424;
-    font-weight: bold;
+    background-color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s ease;
     font-size: 18px;
+    padding: 0.5rem;
 }
 
-.Nav-Button:hover {
-    background-color: #242424;
-    border: solid #242424 3px;
-}
-
-.Nav-Button-Link:hover {
+.Nav-CTA-Link:hover {
     color: #ffffff;
     background-color: #242424;
-    font-size: 18px;
-    padding: 0.3rem;
+    font-size: 20px;
+    border: solid white 2px;
 }
 
 @media (max-width: 800px) {
+    .Nav__Container {
+        padding: 0 1rem;
+    }
     .btn {
         display: contents;
         color: #ffffff;
@@ -88,6 +96,5 @@
     }
     .Nav__Menu__Mobile {
         display: flex;
-        flex-direction: column;
     }
 }

@@ -28,11 +28,9 @@ const DesktopNav = () => {
                     </a>
                 </li>
                 <li className="Nav__Item__Desktop">
-                    <button className="Nav-Button">
-                        <a className="Nav-Button-Link" href="mailto:2022privateequity@gmail.com" target="_blank" rel="noreferrer">
-                            Contact
-                        </a>
-                    </button>
+                    <a className="Nav-CTA-Link" href="mailto:2022privateequity@gmail.com" target="_blank" rel="noreferrer">
+                        Contact
+                    </a>
                 </li>
             </ul>
         </>
