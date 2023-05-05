@@ -1,10 +1,13 @@
 import './nav.css';
 
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { GrClose } from 'react-icons/gr'
-import { useState } from 'react';
+
+"../../assets/Closed_Icon.svg"
+"../../assets/Hamburger_Icon.svg"
 
 import MobileNav from './mobileNav';
 import DesktopNav from './desktopNav';
@@ -24,7 +27,8 @@ const Nav = () => {
             console.log("Open")
             holder++;
             setCount(holder);
-            setIcon(<GrClose size={30} />);
+            //  setIcon(<GrClose size={30} />);
+            setIcon(<img src='../../assets/Closed_Icon.svg' />);
             setNav(DesktopNav);
             setMenu(MobileNav);
         }
