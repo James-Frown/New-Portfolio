@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+
+// importing elements
 import Nav from "../../components/navigation/nav";
+import Hero from "../../components/hero/hero";
 
 // Element Styling import
 import './landing.css';
@@ -79,9 +82,7 @@ const Landing = () => {
             ) : (
                 <>
                     <Nav />
-                    <h1>
-                        Hello Landing Screen
-                    </h1>
+                    <Hero />
                 </>
             )}
         </>
