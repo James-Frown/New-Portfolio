@@ -28,7 +28,7 @@ const Nav = () => {
             holder++;
             setCount(holder);
             //  setIcon(<GrClose size={30} />);
-            setIcon(<img src='../../assets/Closed_Icon.svg' />);
+            setIcon(<link rel="icon" type="image/svg+xml" href="/vite.svg" />);
             setNav(DesktopNav);
             setMenu(MobileNav);
         }
