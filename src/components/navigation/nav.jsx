@@ -6,17 +6,17 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { GrClose } from 'react-icons/gr'
 
-"../../assets/Closed_Icon.svg"
-"../../assets/Hamburger_Icon.svg"
-
 import MobileNav from './mobileNav';
 import DesktopNav from './desktopNav';
 
 const Nav = () => {
 
+    const icon1 = <GiHamburgerMenu size={30} color='white' />;
+    const icon2 = <GrClose size={30} stroke='white' fill='white' />;
+
     const [Nav, setNav] = useState(DesktopNav);
     const [Menu, setMenu] = useState(null);
-    const [Icon, setIcon] = useState(<GiHamburgerMenu size={30} />);
+    const [Icon, setIcon] = useState(icon1);
     const [Count, setCount] = useState(1);
 
     const eventHandler = () => {
@@ -27,8 +27,7 @@ const Nav = () => {
             console.log("Open")
             holder++;
             setCount(holder);
-            //  setIcon(<GrClose size={30} />);
-            setIcon(<link rel="icon" type="image/svg+xml" href="/vite.svg" />);
+            setIcon(icon2);
             setNav(DesktopNav);
             setMenu(MobileNav);
         }
@@ -37,7 +36,7 @@ const Nav = () => {
             console.log("Hidden")
             holder++;
             setCount(holder);
-            setIcon(<GiHamburgerMenu size={30} />);
+            setIcon(icon1);
             setNav(DesktopNav);
             setMenu(null);
         }
@@ -55,7 +54,9 @@ const Nav = () => {
                     </a>
                     {Nav}
                     <button onClick={eventHandler} className="btn">
-                        {Icon}
+                        <div className="btn_wrapper">
+                            {Icon}
+                        </div>
                     </button>
                 </nav>
                 {Menu}

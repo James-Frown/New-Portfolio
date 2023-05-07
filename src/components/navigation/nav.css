@@ -24,6 +24,11 @@
 .btn {
     display: none;
     color: #ffffff;
+    border-radius: 6px;
+}
+
+.btn_wrapper {
+    color: rgb(255, 255, 255);
 }
 
 .Nav__Menu__Desktop {
@@ -89,12 +94,21 @@
     }
     .btn {
         display: contents;
+    }
+    .btn_wrapper {
+        stroke: #ffffff;
         color: #ffffff;
+        fill: #ffffff;
+    }
+    #root>header>nav>button>div>svg>path {
+        stroke: #ffffff;
     }
     .Nav__Menu__Desktop {
         display: none;
     }
     .Nav__Menu__Mobile {
         display: flex;
+        padding-left: 0;
+        align-items: center;
     }
 }
