@@ -21,14 +21,12 @@ const Hero = () => {
                     </p>
                     <div className='Button__Wrapper'>
                         <a>
-                            <Link exact to="/projects" className="Page__Link__Primary">
+                            <Link exact to="/about" className="Page__Link__Primary">
                                 Learn More
                             </Link>
                         </a>
-                        <a>
-                            <Link exact to="/projects" className="Page__Link__Secondary">
-                                Projects
-                            </Link>
+                        <a href="https://drive.google.com/file/d/1x-6Qrc-P0WaMp9GuWRJiViEYyHD2WAcn/view?usp=share_link" className="Page__Link__Secondary">
+                                Resume
                         </a>
                     </div>
                 </div>
