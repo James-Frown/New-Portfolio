@@ -79,9 +79,7 @@ const About = () => {
             ) : (
                 <>
                     <Nav />
-                    <h1>
-                        Hello About Screen
-                    </h1>
+                    <Section1 />
                 </>
             )}
         </>
