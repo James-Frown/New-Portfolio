@@ -7,16 +7,46 @@ const Intrests = () => {
                 <div className='Intrests__content'>
                     <div className='content__text'>
                         <p>
-                            As a tech enthusiast with an entrepreneurial spirit, I am driven to innovate and create positive change. With my passion for learning and willingness to take calculated risks, I am constantly seeking opportunities to challenge myself and push beyond my limits. My hunger for knowledge fuels my creativity, resilience, and unwavering commitment to success.
+                            Some of my intrests are:
                         </p>
                     </div>
                     <div className='content__icons__wrapepr'>
-                        <img/>
-                        <img/>
-                        <img/>
-                        <img/>
-                        <img/>
-                        <img/>
+                        <div className='content__icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                BlockChain
+                            </h2>
+                            <p className='content__icons__text'>
+                                I enjoy block chain because ...
+                            </p>
+                        </div>
+                        <div className='content__icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                BlockChain
+                            </h2>
+                            <p className='content__icons__text'>
+                                I enjoy block chain because ...
+                            </p>
+                        </div>
+                        <div className='content__icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                BlockChain
+                            </h2>
+                            <p className='content__icons__text'>
+                                I enjoy block chain because ...
+                            </p>
+                        </div>
+                        <div className='content__icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                BlockChain
+                            </h2>
+                            <p className='content__icons__text'>
+                                I enjoy block chain because ...
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
