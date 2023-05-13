@@ -19,7 +19,7 @@ const Hero = () => {
                     <p className='Text__3'>
                         I am a <span className='Text__B'> Designer-Developer </span>
                     </p>
-                    <div className='Button__Wrapper'>
+                    <div className='Button__Wrapper Left'>
                         <a>
                             <Link exact to="/about" className="Page__Link__Primary">
                                 Learn More

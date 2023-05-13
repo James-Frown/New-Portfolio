@@ -120,6 +120,8 @@
     transition: 0.3s ease;
     font-size: 18px;
     padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .Page__Link__Secondary {
@@ -132,4 +134,8 @@
     transition: 0.3s ease;
     font-size: 18px;
     padding: 0.5rem;
+}
+
+.Left {
+    justify-content: left;
 }

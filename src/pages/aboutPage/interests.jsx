@@ -1,3 +1,4 @@
+import IntrestsCard from './intrestsCard';
 import './about.css';
 
 const Intrests = () => {
@@ -11,42 +12,7 @@ const Intrests = () => {
                         </p>
                     </div>
                     <div className='content__icons__wrapepr'>
-                        <div className='content__icons__wrapepr'>
-                            <img src='' className='icons__selector' />
-                            <h2 className='content__icons__text'>
-                                BlockChain
-                            </h2>
-                            <p className='content__icons__text'>
-                                I enjoy block chain because ...
-                            </p>
-                        </div>
-                        <div className='content__icons__wrapepr'>
-                            <img src='' className='icons__selector' />
-                            <h2 className='content__icons__text'>
-                                BlockChain
-                            </h2>
-                            <p className='content__icons__text'>
-                                I enjoy block chain because ...
-                            </p>
-                        </div>
-                        <div className='content__icons__wrapepr'>
-                            <img src='' className='icons__selector' />
-                            <h2 className='content__icons__text'>
-                                BlockChain
-                            </h2>
-                            <p className='content__icons__text'>
-                                I enjoy block chain because ...
-                            </p>
-                        </div>
-                        <div className='content__icons__wrapepr'>
-                            <img src='' className='icons__selector' />
-                            <h2 className='content__icons__text'>
-                                BlockChain
-                            </h2>
-                            <p className='content__icons__text'>
-                                I enjoy block chain because ...
-                            </p>
-                        </div>
+                        <IntrestsCard Title="BlockChain" Icon="'./vite.svg'" />
                     </div>
                 </div>
             </div>
