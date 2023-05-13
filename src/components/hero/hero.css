@@ -45,7 +45,15 @@
 
 .Text__1 {
     margin: 0;
-    font-size: larger;
+    font-size: x-large;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.Text__1:hover {
+    margin: 0;
+    color: darkcyan;
+    font-size: xx-large;
     font-weight: 600;
     letter-spacing: 1px;
 }
