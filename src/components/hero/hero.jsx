@@ -25,9 +25,6 @@ const Hero = () => {
                                 Learn More
                             </Link>
                         </a>
-                        <a href="https://drive.google.com/file/d/1x-6Qrc-P0WaMp9GuWRJiViEYyHD2WAcn/view?usp=share_link" className="Page__Link__Secondary">
-                                Resume
-                        </a>
                     </div>
                 </div>
             </div>
