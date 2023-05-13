@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Nav from "../../components/navigation/nav";
+import Summary from "./summery";
 
 // Element Styling import
 import './about.css';
@@ -79,7 +80,7 @@ const About = () => {
             ) : (
                 <>
                     <Nav />
-                    <Section1 />
+                    <Summary />
                 </>
             )}
         </>
