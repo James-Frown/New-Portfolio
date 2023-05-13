@@ -15,3 +15,12 @@
     align-items: center;
     text-align: center;
 }
+
+.image__Selector {
+    display: block;
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 1rem;
+    text-align: center;
+}

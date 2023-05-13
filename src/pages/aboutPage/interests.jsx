@@ -12,7 +12,10 @@ const Intrests = () => {
                         </p>
                     </div>
                     <div className='content__icons__wrapepr'>
-                        <IntrestsCard Title="BlockChain" Icon="'./vite.svg'" />
+                        <IntrestsCard Title="Responsive Design" />
+                        <IntrestsCard Title="Web-App Designer" />
+                        <IntrestsCard Title="Blockchain Technology" />
+                        <IntrestsCard Title="Web-App Developer" />
                     </div>
                 </div>
             </div>
