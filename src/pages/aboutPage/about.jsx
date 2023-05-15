@@ -5,6 +5,7 @@ import Nav from "../../components/navigation/nav";
 import Footer from "../../components/footer/footer";
 import Summary from "./summery";
 import Intrests from "./interests";
+import RoadMap from "./roadmap";
 
 // Element Styling import
 import './about.css';
@@ -85,6 +86,7 @@ const About = () => {
                     <Nav />
                     <Summary />
                     <Intrests />
+                    <RoadMap />
                     <Footer />
                 </>
             )}
