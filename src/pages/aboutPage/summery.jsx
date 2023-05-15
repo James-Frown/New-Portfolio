@@ -20,9 +20,6 @@ const Summery = () => {
                             I am a self-starter and team player with excellent communication skills, and a strong drive to code. My diverse interests and experiences contribute to my ability to think outside the box and bring unique perspectives to my work. Furthermore, I am dedicated to leaving a lasting impact on the world through my work in the tech industry.
                         </p>
                         <p className='text__selector'>
-                            In my spare time, I enjoy exploring new cultures, music, surfing, and fitness. These experiences have taught me to be adaptable and open-minded, which are qualities that I believe make me a valuable asset to any tech organization.
-                        </p>
-                        <p className='text__selector'>
                             I am currently seeking internship opportunities to further develop my skills and contribute to a tech organization. If given the opportunity, I am confident that I can bring my passion for innovation and ability to work well in a team to make meaningful contributions to the organization.
                         </p>
                     </div>
