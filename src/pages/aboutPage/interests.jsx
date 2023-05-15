@@ -1,3 +1,4 @@
+
 import './about.css';
 
 const Intrests = () => {
@@ -6,7 +7,7 @@ const Intrests = () => {
             <div className='Intrests__wrapper'>
                 <div className='Intrests__content'>
                     <div className='content__text'>
-                        <h1>
+                        <h1 className='content__icons__text'>
                             Some of my intrests are:
                         </h1>
                     </div>

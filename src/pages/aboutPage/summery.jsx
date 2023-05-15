@@ -1,3 +1,4 @@
+import ProfileImage from "../../assets/images/ProfileImage.jpg";
 import './about.css';
 
 const Summery = () => {
@@ -5,7 +6,7 @@ const Summery = () => {
         <>
             <div className='summery__wrapper'>
                 <div className='image__wrapper'>
-                    <img src='./IMG_7060.jpg' className='image__Selector'/>
+                    <img src={ProfileImage} className='image__Selector'/>
                 </div>
                 <div className='summery__content'>
                     <div className='content__text'>
