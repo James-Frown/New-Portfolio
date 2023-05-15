@@ -1,6 +1,8 @@
-import './nav.css';
-
+// importing router tools
 import { Link } from "react-router-dom";
+
+// importing styling
+import './nav.css';
 
 const MobileNav = () => {
     return (

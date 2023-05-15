@@ -1,7 +1,9 @@
+// importing icons
 import Behance from "../../assets/footer/Behance.svg";
 import Github from "../../assets/footer/GitHub.svg";
 import LinkedIn from "../../assets/footer/LinkedIn.svg";
 
+// importing styling
 import './footer.css';
 
 const Footer = () => {

@@ -1,7 +1,11 @@
+// importing profile image
 import ProfileImage from "../../assets/images/ProfileImage.jpg"
-import './hero.css';
 
+// importing routes
 import { Link } from 'react-router-dom';
+
+// importing styling
+import './hero.css';
 
 const Hero = () => {
     return (

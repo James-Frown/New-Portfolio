@@ -1,6 +1,10 @@
+// importing jsx tools
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+
+// importing page elements
 import Nav from "../../components/navigation/nav";
+import Footer from "../../components/footer/footer";
 
 // Element Styling import
 import './skills.css';
@@ -82,6 +86,7 @@ const Skills = () => {
                     <h1>
                         Hello Skills Screen
                     </h1>
+                    <Footer />
                 </>
             )}
         </>

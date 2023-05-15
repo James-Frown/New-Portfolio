@@ -1,6 +1,8 @@
-import './nav.css';
-
+// importing routes
 import { Link } from "react-router-dom";
+
+// importing styling
+import './nav.css';
 
 const DesktopNav = () => {
     return (

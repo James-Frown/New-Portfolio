@@ -1,3 +1,4 @@
+// importing styling
 import './roadmap.css';
 
 const RoadMap = () => {

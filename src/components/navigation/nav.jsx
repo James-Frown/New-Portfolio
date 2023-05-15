@@ -1,13 +1,17 @@
-import './nav.css';
-
+// importing jsx tools
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
+// importing icons
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { GrClose } from 'react-icons/gr'
 
+// importing nav elements
 import MobileNav from './mobileNav';
 import DesktopNav from './desktopNav';
+
+// importing styling
+import './nav.css';
 
 const Nav = () => {
 

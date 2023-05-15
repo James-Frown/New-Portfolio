@@ -1,4 +1,7 @@
+// importing profile image
 import ProfileImage from "../../assets/images/ProfileImage.jpg";
+
+// importing styling
 import './summery.css';
 
 const Summery = () => {
