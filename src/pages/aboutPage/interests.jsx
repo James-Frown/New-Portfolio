@@ -2,7 +2,8 @@ import Icon1 from "../../assets/interests/ICON1.svg";
 import Icon2 from "../../assets/interests/ICON2.svg";
 import Icon3 from "../../assets/interests/ICON3.svg";
 import Icon4 from "../../assets/interests/ICON4.svg";
-import './about.css';
+
+import './intrests.css';
 
 const Intrests = () => {
     return (

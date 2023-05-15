@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+
 import Nav from "../../components/navigation/nav";
+import Footer from "../../components/footer/footer";
 import Summary from "./summery";
 import Intrests from "./interests";
 
@@ -83,6 +85,7 @@ const About = () => {
                     <Nav />
                     <Summary />
                     <Intrests />
+                    <Footer />
                 </>
             )}
         </>
