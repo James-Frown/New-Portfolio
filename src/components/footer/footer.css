@@ -1,0 +1,20 @@
+.footer__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon__wrapper {
+    padding: 0.5rem;
+}
+
+.icon__selector {
+    width: 5rem;
+}
