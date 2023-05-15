@@ -6,9 +6,9 @@ const Intrests = () => {
             <div className='Intrests__wrapper'>
                 <div className='Intrests__content'>
                     <div className='content__text'>
-                        <p>
+                        <h1>
                             Some of my intrests are:
-                        </p>
+                        </h1>
                     </div>
                     <div className='content__icons__wrapepr'>
                         <div className='icons__wrapepr'>
