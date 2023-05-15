@@ -1,4 +1,3 @@
-import IntrestsCard from './intrestsCard';
 import './about.css';
 
 const Intrests = () => {
@@ -12,10 +11,30 @@ const Intrests = () => {
                         </p>
                     </div>
                     <div className='content__icons__wrapepr'>
-                        <IntrestsCard Title="Responsive Design" />
-                        <IntrestsCard Title="Web-App Designer" />
-                        <IntrestsCard Title="Blockchain Technology" />
-                        <IntrestsCard Title="Web-App Developer" />
+                        <div className='icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                Responsive Design
+                            </h2>
+                        </div>
+                        <div className='icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                Web-App Designer
+                            </h2>
+                        </div>
+                        <div className='icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                Blockchain Technology
+                            </h2>
+                        </div>
+                        <div className='icons__wrapepr'>
+                            <img src='' className='icons__selector' />
+                            <h2 className='content__icons__text'>
+                                Web-App Developer
+                            </h2>
+                        </div>
                     </div>
                 </div>
             </div>
