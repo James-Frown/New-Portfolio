@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    color: black;
-    background-color: white;
 }
 
 .intrests__content {
@@ -46,4 +44,6 @@
     text-align: center;
 }
 
-.icon__text {}
+.icon__text {
+    font-size: 1rem;
+}
