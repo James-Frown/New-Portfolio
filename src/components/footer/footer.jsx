@@ -1,7 +1,7 @@
 // importing icons
-import Behance from "../../assets/footer/Behance.svg";
-import Github from "../../assets/footer/GitHub.svg";
-import LinkedIn from "../../assets/footer/LinkedIn.svg";
+import Behance from "../../assets/footer/Behance_Icon.svg";
+import Github from "../../assets/footer/GitHub_Icon.svg";
+import LinkedIn from "../../assets/footer/LinkedIn_Icon.svg";
 
 // importing styling
 import './footer.css';
