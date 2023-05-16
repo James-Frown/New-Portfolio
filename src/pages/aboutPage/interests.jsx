@@ -1,8 +1,9 @@
 // importing icons
-import Icon1 from "../../assets/interests/ICON1.svg";
-import Icon2 from "../../assets/interests/ICON2.svg";
-import Icon3 from "../../assets/interests/ICON3.svg";
-import Icon4 from "../../assets/interests/ICON4.svg";
+import Bitcoin from "../../assets/interests/Bitcoin_Icon.svg";
+import Blockchain from "../../assets/interests/Blockchain_Icon.svg";
+import Responsive from "../../assets/interests/Responsive_Icon.svg";
+import WebDesign from "../../assets/interests/WebDesign_Icon.svg";
+import Sourcecode from "../../assets/interests/SourceCode_Icon.svg";
 
 // importing styling
 import './intrests.css';
@@ -19,27 +20,33 @@ const Intrests = () => {
                     </div>
                     <div className='content__icons__wrapper'>
                         <div className='icon__wrapper'>
-                            <img src={Icon1} className='icon__selector' />
+                            <img src={Bitcoin} className='icon__selector' />
                             <h3 className='icon__text'>
-                                Responsive Design
+                                Bitcoin & Crypto Curreny
                             </h3>
                         </div>
                         <div className='icon__wrapper'>
-                            <img src={Icon2} className='icon__selector' />
+                            <img src={Blockchain} className='icon__selector' />
                             <h3 className='icon__text'>
-                                Web-App Designer
+                                BlockChain Technology
                             </h3>
                         </div>
                         <div className='icon__wrapper'>
-                            <img src={Icon3} className='icon__selector' />
+                            <img src={Responsive} className='icon__selector' />
                             <h3 className='icon__text'>
-                                Blockchain Technology
+                                Responsive Web Design
                             </h3>
                         </div>
                         <div className='icon__wrapper'>
-                            <img src={Icon4} className='icon__selector' />
+                            <img src={WebDesign} className='icon__selector' />
                             <h3 className='icon__text'>
-                                Web-App Developer
+                                Progressive Web Apps
+                            </h3>
+                        </div>
+                        <div className='icon__wrapper'>
+                            <img src={Sourcecode} className='icon__selector' />
+                            <h3 className='icon__text'>
+                                Software Development
                             </h3>
                         </div>
                     </div>
