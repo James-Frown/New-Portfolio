@@ -1,17 +1,16 @@
-// import developer icons
-import CSS from '../../assets/skills/code/CSS3_Icon.svg';
-import HTML from '../../assets/skills/code/HTML5_Icon.svg';
-import JS from '../../assets/skills/code/JS_Icon.svg';
-import Java from '../../assets/skills/code/Java_Icon.svg';
-import Firebase from '../../assets/skills/code/Firebase_Icon.svg';
-import Git from '../../assets/skills/code/Git_Icon.svg';
-import MySql from '../../assets/skills/code/MySql_Icon.svg';
-import Netlify from '../../assets/skills/code/Netlify_Icon.svg';
-import React from '../../assets/skills/code/ReactNative_Icon.svg';
-import Saas from '../../assets/skills/code/Saas_Icon.svg';
-import StoryBook from '../../assets/skills/code/StoryBook_Icon.svg';
-import Tailwind from '../../assets/skills/code/TailwindCSS_Icon.svg';
-import TypeScript from '../../assets/skills/code/TypeScript_Icon.svg';
+// importing developer icons
+import IconCSS from '../../assets/skills/code/CSS3_Icon.svg';
+import IconHTML from '../../assets/skills/code/HTML5_Icon.svg';
+import IconJS from '../../assets/skills/code/JS_Icon.svg';
+import IconJava from '../../assets/skills/code/Java_Icon.svg';
+import IconFirebase from '../../assets/skills/code/Firebase_Icon.svg';
+import IconGit from '../../assets/skills/code/Git_Icon.svg';
+import IconMySql from '../../assets/skills/code/MySql_Icon.svg';
+import IconNetlify from '../../assets/skills/code/Netlify_Icon.svg';
+import IconReactNative from '../../assets/skills/code/ReactNative_Icon.svg';
+import IconStoryBook from '../../assets/skills/code/StoryBook_Icon.svg';
+import IconTailwind from '../../assets/skills/code/TailwindCSS_Icon.svg';
+import IconTypeScript from '../../assets/skills/code/TypeScript_Icon.svg';
 
 // importing styling
 import './filterSkills.css';
@@ -23,43 +22,40 @@ const Code = () => {
                 Code...
             </h1>
             <div>
-                <img src={CSS} />
+                <img className='icon__selector' src={IconCSS} />
             </div>
             <div>
-                <img src={HTML} />
+                <img className='icon__selector' src={IconHTML} />
             </div>
             <div>
-                <img src={JS} />
+                <img className='icon__selector' src={IconJS} />
             </div>
             <div>
-                <img src={Java} />
+                <img className='icon__selector' src={IconJava} />
             </div>
             <div>
-                <img src={Firebase} />
+                <img className='icon__selector' src={IconFirebase} />
             </div>
             <div>
-                <img src={Git} />
+                <img className='icon__selector' src={IconGit} />
             </div>
             <div>
-                <img src={MySql} />
+                <img className='icon__selector' src={IconMySql} />
             </div>
             <div>
-                <img src={Netlify} />
+                <img className='icon__selector' src={IconNetlify} />
             </div>
             <div>
-                <img src={React} />
+                <img className='icon__selector' src={IconReactNative} />
             </div>
             <div>
-                <img src={Saas} />
+                <img className='icon__selector' src={IconStoryBook} />
             </div>
             <div>
-                <img src={StoryBook} />
+                <img className='icon__selector' src={IconTailwind} />
             </div>
             <div>
-                <img src={Tailwind} />
-            </div>
-            <div>
-                <img src={TypeScript} />
+                <img className='icon__selector' src={IconTypeScript} />
             </div>
         </>
     );
