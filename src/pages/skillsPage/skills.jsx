@@ -7,7 +7,7 @@ import Nav from "../../components/navigation/nav";
 import Footer from "../../components/footer/footer";
 
 // importing page content
-
+import Filter from "./filterSkills";
 
 // Element Styling import
 import './skills.css';
@@ -86,9 +86,7 @@ const Skills = () => {
             ) : (
                 <>
                     <Nav />
-                    <h1>
-                        Hello Skills Screen
-                    </h1>
+                    <Filter />
                     <Footer />
                 </>
             )}
