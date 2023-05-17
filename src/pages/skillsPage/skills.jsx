@@ -6,6 +6,9 @@ import { useEffect, useState } from "react";
 import Nav from "../../components/navigation/nav";
 import Footer from "../../components/footer/footer";
 
+// importing page content
+
+
 // Element Styling import
 import './skills.css';
 
