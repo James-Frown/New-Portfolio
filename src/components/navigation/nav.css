@@ -88,7 +88,7 @@
     border: solid white 2px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .Nav__Container {
         padding: 0 1rem;
     }
