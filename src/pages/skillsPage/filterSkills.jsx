@@ -51,12 +51,12 @@ const Filter = () => {
                             My Skills
                         </h1>
                         <p className='title__description'>
-                            Here are some of my skills, choose between Code & Design related content!
+                            Here you can choose between looking at my skills as a Developer or Designer!
                         </p>
                     </div>
                     <div className='button__wrapper'>
-                        <button onClick={showCode} className={primary}>Code</button>
-                        <button onClick={showDesign} className={secondary}>Design</button>
+                        <button onClick={showCode} className={primary}>Developer</button>
+                        <button onClick={showDesign} className={secondary}>Designer</button>
                     </div>
                     <div className='content__wrapper'>
                         {content}
