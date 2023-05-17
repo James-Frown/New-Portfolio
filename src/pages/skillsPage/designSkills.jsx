@@ -1,5 +1,10 @@
 // importing designer icons
-import IconCSS from '../../assets/skills/code/CSS3_Icon.svg';
+import IconAIL from '../../assets/skills/design/AdobeIllustrator_Icon.svg';
+import IconAID from '../../assets/skills/design/AdobeIndesign_Icon.svg';
+import IconAPS from '../../assets/skills/design/AdobePhotoshop_Icon.svg';
+import IconAPP from '../../assets/skills/design/AdobePremierePro_Icon.svg';
+import IconAXD from '../../assets/skills/design/AdobeXD_Icon.svg';
+import IconFIGMA from '../../assets/skills/design/Figma_Icon.svg';
 
 // importing styling
 import './filterSkills.css';
@@ -11,40 +16,22 @@ const Design = () => {
                 Design...
             </h1>
             <div>
-                <img className='icon__selector' src={IconCSS} />
+                <img className='icon__selector' src={IconAIL} />
             </div>
             <div>
-                <img className='icon__selector' src={IconHTML} />
+                <img className='icon__selector' src={IconAID} />
             </div>
             <div>
-                <img className='icon__selector' src={IconJS} />
+                <img className='icon__selector' src={IconAPS} />
             </div>
             <div>
-                <img className='icon__selector' src={IconJava} />
+                <img className='icon__selector' src={IconAPP} />
             </div>
             <div>
-                <img className='icon__selector' src={IconFirebase} />
+                <img className='icon__selector' src={IconAXD} />
             </div>
             <div>
-                <img className='icon__selector' src={IconGit} />
-            </div>
-            <div>
-                <img className='icon__selector' src={IconMySql} />
-            </div>
-            <div>
-                <img className='icon__selector' src={IconNetlify} />
-            </div>
-            <div>
-                <img className='icon__selector' src={IconReactNative} />
-            </div>
-            <div>
-                <img className='icon__selector' src={IconStoryBook} />
-            </div>
-            <div>
-                <img className='icon__selector' src={IconTailwind} />
-            </div>
-            <div>
-                <img className='icon__selector' src={IconTypeScript} />
+                <img className='icon__selector' src={IconFIGMA} />
             </div>
         </>
     );

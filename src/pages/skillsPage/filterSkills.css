@@ -37,4 +37,11 @@
     padding: 1rem;
 }
 
-.icon__selector {}
+.icon__selector {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
