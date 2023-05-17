@@ -4,7 +4,9 @@ import './filterSkills.css';
 const Design = () => {
     return (
         <>
-            Design...
+            <h1>
+                Design...
+            </h1>
         </>
     );
 };

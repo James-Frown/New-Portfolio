@@ -1,4 +1,8 @@
-.Skills__wrapper {}
+.Skills__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
 
 .Skills__content {}
 
@@ -8,6 +12,27 @@
 
 .title__description {}
 
-.button__wrapper {}
+.button__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
 
 .content__wrapper {}
+
+.primary {
+    background-color: white;
+    color: black;
+    border: solid 2px white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.secondary {
+    background-color: #242424;
+    color: white;
+    border: solid 2px white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
