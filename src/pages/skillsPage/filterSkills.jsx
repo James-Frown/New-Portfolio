@@ -10,20 +10,32 @@ import Code from './codeSkills';
 import './filterSkills.css';
 
 const Filter = () => {
+
+    // state management for buttons
+    const [active, setActive] = useState();
+
+    // state management for content
+    const [content, setContent] = useState();
+
+    // function to set Active Button
+
+    // function to set active content
+
     return (
         <>
             <div className='Skills__wrapper'>
                 <div className='Skills__content'>
                     <div className='title__wrapper'>
                         <h1 className='title__heading'>
-                            My Road-Map
+                            My Skills
                         </h1>
                         <p className='title__description'>
-                            Interaction design is the process of creating digital products or services that are intuitive and easy to use. It involves designing the interface, user flow, and overall user experience to ensure that people can interact with technology in a natural and efficient way. Interaction designers consider factors such as usability, accessibility, and human-computer interaction to create engaging interfaces that meet the needs of users. Good interaction design is critical for creating products that are not only functional but also enjoyable to use.
+                            Here are some of my skills, choose between Code & Design related content!
                         </p>
                     </div>
                     <div className='button__wrapper'>
-
+                        <button>Code</button>
+                        <button>Design</button>
                     </div>
                     <div className='content__wrapper'>
 
