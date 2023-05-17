@@ -12,17 +12,17 @@ const Footer = () => {
             <div className='footer__wrapper'>
                 <div className='footer__content'>
                     <div className='icon__wrapper'>
-                        <a href="https://www.behance.net/jamesbrown158" target="_blank">
+                        <a href="https://www.behance.net/jamesbrown158" target="_blank" rel="noreferrer">
                             <img src={Behance} className='icon__selector' />
                         </a>
                     </div>
                     <div className='icon__wrapper'>
-                        <a href="https://github.com/James-Frown" target="_blank">
+                        <a href="https://github.com/James-Frown" target="_blank" rel="noreferrer">
                             <img src={Github} className='icon__selector' />
                         </a>
                     </div>
                     <div className='icon__wrapper'>
-                        <a href="https://www.linkedin.com/in/james-brown-308233171" target="_blank">
+                        <a href="https://www.linkedin.com/in/james-brown-308233171" target="_blank" rel="noreferrer">
                             <img src={LinkedIn} className='icon__selector' />
                         </a>
                     </div>
