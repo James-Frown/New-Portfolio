@@ -13,7 +13,7 @@ const Design = () => {
     return (
         <>
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Foundational Skills
                 </h2>
                 <div className='wrapper__wrap'>
@@ -35,7 +35,7 @@ const Design = () => {
                 </div>
             </div>
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Current Skills
                 </h2>
                 <div className='wrapper__wrap'>
