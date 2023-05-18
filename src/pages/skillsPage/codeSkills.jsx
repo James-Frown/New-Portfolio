@@ -23,31 +23,32 @@ const Code = () => {
                 <h2>
                     Foundational Skills
                 </h2>
-                <div className='wrapper__wrap'></div>
-                <div>
-                    <img className='icon__selector' src={IconJava} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconMySql} />
+                <div className='wrapper__wrap'>
+                    <div>
+                        <img className='icon__selector' src={IconJava} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconMySql} />
+                    </div>
                 </div>
             </div>
-
             <div className='wrapper__center'>
                 <h2>
                     Core Developer Langauges
                 </h2>
-                <div className='wrapper__wrap'></div>
-                <div>
-                    <img className='icon__selector' src={IconCSS} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconHTML} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconJS} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconReactNative} />
+                <div className='wrapper__wrap'>
+                    <div>
+                        <img className='icon__selector' src={IconCSS} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconHTML} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconJS} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconReactNative} />
+                    </div>
                 </div>
             </div>
 

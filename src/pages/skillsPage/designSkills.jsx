@@ -16,28 +16,32 @@ const Design = () => {
                 <h2>
                     Foundational Skills
                 </h2>
-                <div>
-                    <img className='icon__selector' src={IconAIL} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconAID} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconAPS} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconAPP} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconAXD} />
+                <div className='wrapper__wrap'>
+                    <div>
+                        <img className='icon__selector' src={IconAIL} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconAID} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconAPS} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconAPP} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconAXD} />
+                    </div>
                 </div>
             </div>
             <div className='wrapper__center'>
                 <h2>
                     Current Skills
                 </h2>
-                <div>
-                    <img className='icon__selector' src={IconFIGMA} />
+                <div className='wrapper__wrap'>
+                    <div>
+                        <img className='icon__selector' src={IconFIGMA} />
+                    </div>
                 </div>
             </div>
         </>
