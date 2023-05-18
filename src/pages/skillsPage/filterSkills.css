@@ -53,3 +53,12 @@
     align-items: center;
     text-align: center;
 }
+
+.wrapper__center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}

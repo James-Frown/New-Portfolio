@@ -20,7 +20,7 @@ const Code = () => {
         <>
 
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Foundational Skills
                 </h2>
                 <div className='wrapper__wrap'>
@@ -33,7 +33,7 @@ const Code = () => {
                 </div>
             </div>
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Core Developer Langauges
                 </h2>
                 <div className='wrapper__wrap'>
@@ -52,7 +52,7 @@ const Code = () => {
                 </div>
             </div>
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Source Controll
                 </h2>
                 <div className='wrapper__wrap'>
@@ -62,7 +62,7 @@ const Code = () => {
                 </div>
             </div>
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Online Deployment & Database Management
                 </h2>
                 <div className='wrapper__wrap'>
@@ -75,7 +75,7 @@ const Code = () => {
                 </div>
             </div>
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Future CSS Frameworks
                 </h2>
                 <div className='wrapper__wrap'>
@@ -88,7 +88,7 @@ const Code = () => {
                 </div>
             </div>
             <div className='wrapper__center'>
-                <h2>
+                <h2 className='wrapper__title'>
                     Future Development langauges
                 </h2>
                 <div className='wrapper__wrap'>
