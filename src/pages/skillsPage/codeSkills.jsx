@@ -51,43 +51,42 @@ const Code = () => {
                     </div>
                 </div>
             </div>
-
             <div className='wrapper__center'>
                 <h2>
                     Source Controll
                 </h2>
-                <div className='wrapper__wrap'></div>
-                <div>
-                    <img className='icon__selector' src={IconGit} />
+                <div className='wrapper__wrap'>
+                    <div>
+                        <img className='icon__selector' src={IconGit} />
+                    </div>
                 </div>
             </div>
-
             <div className='wrapper__center'>
                 <h2>
                     Online Deployment & Database Management
                 </h2>
-                <div className='wrapper__wrap'></div>
-                <div>
-                    <img className='icon__selector' src={IconNetlify} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconFirebase} />
+                <div className='wrapper__wrap'>
+                    <div>
+                        <img className='icon__selector' src={IconNetlify} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconFirebase} />
+                    </div>
                 </div>
             </div>
-
             <div className='wrapper__center'>
                 <h2>
                     Future CSS Frameworks
                 </h2>
-                <div className='wrapper__wrap'></div>
-                <div>
-                    <img className='icon__selector' src={IconStoryBook} />
-                </div>
-                <div>
-                    <img className='icon__selector' src={IconTailwind} />
+                <div className='wrapper__wrap'>
+                    <div>
+                        <img className='icon__selector' src={IconStoryBook} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconTailwind} />
+                    </div>
                 </div>
             </div>
-
             <div className='wrapper__center'>
                 <h2>
                     Future Development langauges
