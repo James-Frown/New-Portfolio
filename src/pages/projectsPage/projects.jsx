@@ -84,7 +84,7 @@ const Projects = () => {
                 <>
                     <Nav />
                     <h1>
-                        Hello Projects Screen
+                        In Development
                     </h1>
                     <Footer />
                 </>
