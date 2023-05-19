@@ -4,8 +4,6 @@
     padding: 1rem;
 }
 
-.Skills__content {}
-
 .title__wrapper {}
 
 .title__heading {}
@@ -74,3 +72,5 @@
     text-align: center;
     flex-wrap: wrap;
 }
+
+@media (max-width: 850px) {}

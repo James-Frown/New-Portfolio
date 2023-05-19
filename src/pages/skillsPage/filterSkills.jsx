@@ -45,22 +45,20 @@ const Filter = () => {
     return (
         <>
             <div className='Skills__wrapper'>
-                <div className='Skills__content'>
-                    <div className='title__wrapper'>
-                        <h1 className='title__heading'>
-                            My Skills
-                        </h1>
-                        <p className='title__description'>
-                            Here you can choose between looking at my skills as a Developer or Designer!
-                        </p>
-                    </div>
-                    <div className='button__wrapper'>
-                        <button onClick={showCode} className={primary}>Developer</button>
-                        <button onClick={showDesign} className={secondary}>Designer</button>
-                    </div>
-                    <div className='content__wrapper'>
-                        {content}
-                    </div>
+                <div className='title__wrapper'>
+                    <h1 className='title__heading'>
+                        My Skills
+                    </h1>
+                    <p className='title__description'>
+                        Here you can choose between looking at my skills as a Developer or Designer!
+                    </p>
+                </div>
+                <div className='button__wrapper'>
+                    <button onClick={showCode} className={primary}>Developer</button>
+                    <button onClick={showDesign} className={secondary}>Designer</button>
+                </div>
+                <div className='content__wrapper'>
+                    {content}
                 </div>
             </div>
         </>
