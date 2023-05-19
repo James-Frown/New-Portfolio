@@ -1,6 +1,6 @@
 // importing developer icons
 import IconCSS from '../../assets/skills/code/CSS3_Icon.svg';
-import IconHTML from '../../assets/skills/code/HTML5_Icon.svg';
+import IconHTML from '../../assets/skills/code/Html5_Icon.svg';
 import IconJS from '../../assets/skills/code/JS_Icon.svg';
 import IconJava from '../../assets/skills/code/Java_Icon.svg';
 import IconFirebase from '../../assets/skills/code/Firebase_Icon.svg';
