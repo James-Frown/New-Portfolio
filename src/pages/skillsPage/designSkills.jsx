@@ -1,10 +1,10 @@
 // importing designer icons
-import IconAIL from '../../assets/skills/design/AdobeIllustrator_Icon.svg';
-import IconAID from '../../assets/skills/design/AdobeIndesign_Icon.svg';
-import IconAPS from '../../assets/skills/design/AdobePhotoshop_Icon.svg';
-import IconAPP from '../../assets/skills/design/AdobePremierePro_Icon.svg';
-import IconAXD from '../../assets/skills/design/AdobeXD_Icon.svg';
-import IconFIGMA from '../../assets/skills/design/Figma_Icon.svg';
+import IconAIL from '../../../public/skills/design/AdobeIllustrator_Icon.svg';
+import IconAID from '../../../public/skills/design/AdobeIndesign_Icon.svg';
+import IconAPS from '../../../public/skills/design/AdobePhotoshop_Icon.svg';
+import IconAPP from '../../../public/skills/design/AdobePremierePro_Icon.svg';
+import IconAXD from '../../../public/skills/design/AdobeXD_Icon.svg';
+import IconFIGMA from '../../../public/skills/design/Figma_Icon.svg';
 
 // importing styling
 import './filterSkills.css';
