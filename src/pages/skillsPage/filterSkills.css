@@ -29,7 +29,10 @@
     gap: 2rem;
 }
 
-.content__wrapper {}
+.content__wrapper {
+    display: flex;
+    flex-direction: column;
+}
 
 .primary {
     background-color: white;
