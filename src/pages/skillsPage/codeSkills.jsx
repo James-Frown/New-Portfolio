@@ -11,7 +11,7 @@ import IconReactNative from '../../assets/skills/code/ReactNative_Icon.svg';
 import IconStoryBook from '../../assets/skills/code/StoryBook_Icon.svg';
 import IconTailwind from '../../assets/skills/code/TailwindCSS_Icon.svg';
 import IconTypeScript from '../../assets/skills/code/TypeScript_Icon.svg';
-import IconSaas from '../../assets/skills/code/Saas_Icon.svg';
+import IconSCSS from '../../assets/skills/code/SCSS_Icon.svg';
 
 // importing styling
 import './filterSkills.css';
@@ -87,7 +87,7 @@ const Code = () => {
                         <img className='icon__selector' src={IconTailwind} />
                     </div>
                     <div>
-                        <img className='icon__selector' src={IconSaas} />
+                        <img className='icon__selector' src={IconSCSS} />
                     </div>
                 </div>
             </div>
