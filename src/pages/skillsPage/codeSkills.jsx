@@ -1,16 +1,15 @@
-// importing developer icons
-import IconCSS from '../../../public/skills/code/CSS3_Icon.svg';
-import IconHTML from '../../../public/skills/code/Html5_Icon.svg';
-import IconJS from '../../../public/skills/code/JS_Icon.svg';
-import IconJava from '../../../public/skills/code/Java_Icon.svg';
-import IconFirebase from '../../../public/skills/code/Firebase_Icon.svg';
-import IconGit from '../../../public/skills/code/Git_Icon.svg';
-import IconMySql from '../../../public/skills/code/MySql_Icon.svg';
-import IconNetlify from '../../../public/skills/code/Netlify_Icon.svg';
-import IconReactNative from '../../../public/skills/code/ReactNative_Icon.svg';
-import IconStoryBook from '../../../public/skills/code/StoryBook_Icon.svg';
-import IconTailwind from '../../../public/skills/code/TailwindCSS_Icon.svg';
-import IconTypeScript from '../../../public/skills/code/TypeScript_Icon.svg';
+// importing developer icons from file
+import IconHTML from '../../assets/skills/code/Html5_Icon.svg';
+import IconJS from '../../assets/skills/code/JS_Icon.svg';
+import IconJava from '../../assets/skills/code/Java_Icon.svg';
+import IconFirebase from '../../assets/skills/code/Firebase_Icon.svg';
+import IconGit from '../../assets/skills/code/Git_Icon.svg';
+import IconMySql from '../../assets/skills/code/MySql_Icon.svg';
+import IconNetlify from '../../assets/skills/code/Netlify_Icon.svg';
+import IconReactNative from '../../assets/skills/code/ReactNative_Icon.svg';
+import IconStoryBook from '../../assets/skills/code/StoryBook_Icon.svg';
+import IconTailwind from '../../assets/skills/code/TailwindCSS_Icon.svg';
+import IconTypeScript from '../../assets/skills/code/TypeScript_Icon.svg';
 
 // importing styling
 import './filterSkills.css';
@@ -38,7 +37,7 @@ const Code = () => {
                 </h2>
                 <div className='wrapper__wrap'>
                     <div>
-                        <img className='icon__selector' src={IconCSS} />
+                        <img className='icon__selector' href="https://drive.google.com/file/d/13jRHoazVbyA4kkrnzHpg_Ex1HcFlcQ7j/view?usp=share_link" />
                     </div>
                     <div>
                         <img className='icon__selector' src={IconHTML} />
