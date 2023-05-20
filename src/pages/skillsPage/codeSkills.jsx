@@ -1,4 +1,5 @@
 // importing developer icons from file
+import IconCSS3 from '../../assets/skills/code/CSS3_Icon.svg';
 import IconHTML from '../../assets/skills/code/Html5_Icon.svg';
 import IconJS from '../../assets/skills/code/JS_Icon.svg';
 import IconJava from '../../assets/skills/code/Java_Icon.svg';
@@ -38,7 +39,7 @@ const Code = () => {
                 </h2>
                 <div className='wrapper__wrap'>
                     <div>
-                        <img className='icon__selector' href="https://drive.google.com/file/d/13jRHoazVbyA4kkrnzHpg_Ex1HcFlcQ7j/view?usp=share_link" />
+                        <img className='icon__selector' src={IconCSS3} />
                     </div>
                     <div>
                         <img className='icon__selector' src={IconHTML} />
