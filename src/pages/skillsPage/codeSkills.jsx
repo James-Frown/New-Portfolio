@@ -4,7 +4,7 @@ import IconJS from '../../assets/skills/code/JS_Icon.svg';
 import IconJava from '../../assets/skills/code/Java_Icon.svg';
 import IconFirebase from '../../assets/skills/code/Firebase_Icon.svg';
 import IconGit from '../../assets/skills/code/Git_Icon.svg';
-import IconMySql from '../../assets/skills/code/MySql_Icon.svg';
+// import IconMySql from '../../assets/skills/code/MySql_Icon.svg';
 import IconNetlify from '../../assets/skills/code/Netlify_Icon.svg';
 import IconReactNative from '../../assets/skills/code/ReactNative_Icon.svg';
 import IconStoryBook from '../../assets/skills/code/StoryBook_Icon.svg';
@@ -26,9 +26,9 @@ const Code = () => {
                     <div>
                         <img className='icon__selector' src={IconJava} />
                     </div>
-                    <div>
+                    {/* <div>
                         <img className='icon__selector' src={IconMySql} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='wrapper__center'>
