@@ -3,6 +3,7 @@ import ProfileImage from "../../assets/images/ProfileImage.jpg";
 
 // importing my resume
 import MyResume from "../../assets/resume/JamesBrown-Resume-2023.pdf";
+import MyResumeDark from "../../assets/resume/JamesBrown-Resume-2023-Dark.pdf";
 
 // importing styling
 import './summery.css';
@@ -28,11 +29,11 @@ const Summery = () => {
                     </div>
                     <div className='cta__wrapper'>
                         <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
-                            Resume
+                            Resume - Light
                         </a>
                         <span className="cta_spacing"></span>
-                        <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
-                            Resume
+                        <a href={MyResumeDark} className="cta__button" target="_blank" rel="noreferrer">
+                            Resume - Dark
                         </a>
                     </div>
                 </div>
