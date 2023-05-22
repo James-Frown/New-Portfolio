@@ -27,7 +27,7 @@ const Summery = () => {
                         </p>
                     </div>
                     <div className='cta__wrapper'>
-                        <a src={MyResume} className="cta__button" target="_blank" rel="noreferrer">
+                        <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
                             Resume
                         </a>
                     </div>
