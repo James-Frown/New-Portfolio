@@ -109,6 +109,10 @@
         gap: 2rem;
         padding-top: 1.5rem;
     }
+    .cta_spacing {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
     .cta__button {
         background-color: #242424;
         color: #ffffff;

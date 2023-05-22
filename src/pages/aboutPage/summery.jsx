@@ -12,7 +12,7 @@ const Summery = () => {
         <>
             <div className='summery__wrapper'>
                 <div className='summery__image__wrapper'>
-                    <img src={ProfileImage} className='image__selector'/>
+                    <img src={ProfileImage} className='image__selector' />
                 </div>
                 <div className='summery__content__wrapper'>
                     <div className='content__text'>
@@ -27,6 +27,10 @@ const Summery = () => {
                         </p>
                     </div>
                     <div className='cta__wrapper'>
+                        <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
+                            Resume
+                        </a>
+                        <span className="cta_spacing"></span>
                         <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
                             Resume
                         </a>
