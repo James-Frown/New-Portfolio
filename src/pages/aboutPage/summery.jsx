@@ -1,6 +1,9 @@
 // importing profile image
 import ProfileImage from "../../assets/images/ProfileImage.jpg";
 
+// importing my resume
+import MyResume from "../../assets/resume/JamesBrown-Resume-2023.pdf";
+
 // importing styling
 import './summery.css';
 
@@ -24,7 +27,7 @@ const Summery = () => {
                         </p>
                     </div>
                     <div className='cta__wrapper'>
-                        <a href="https://resume.io/r/fVHrlxz2i" className="cta__button" target="_blank" rel="noreferrer">
+                        <a src={MyResume} className="cta__button" target="_blank" rel="noreferrer">
                             Resume
                         </a>
                     </div>
