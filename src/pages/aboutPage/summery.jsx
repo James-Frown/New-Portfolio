@@ -29,11 +29,11 @@ const Summery = () => {
                     </div>
                     <div className='cta__wrapper'>
                         <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
-                            Resume - Light
+                            Resume
                         </a>
                         <span className="cta_spacing"></span>
                         <a href={MyResumeDark} className="cta__button" target="_blank" rel="noreferrer">
-                            Resume - Dark
+                            Resume-Dark
                         </a>
                     </div>
                 </div>
