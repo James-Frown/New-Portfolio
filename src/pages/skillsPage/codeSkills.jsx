@@ -35,7 +35,7 @@ const Code = () => {
             </div>
             <div className='wrapper__center'>
                 <h2 className='wrapper__title'>
-                    Core Developer Langauges
+                    Current Front-End Languages
                 </h2>
                 <div className='wrapper__wrap'>
                     <div>
@@ -54,7 +54,7 @@ const Code = () => {
             </div>
             <div className='wrapper__center'>
                 <h2 className='wrapper__title'>
-                    Source Controll
+                    Source Control
                 </h2>
                 <div className='wrapper__wrap'>
                     <div>
