@@ -92,7 +92,7 @@ const Projects = () => {
                         </h1>
                     </div>
                     <div>
-                        <img src={Image} />
+                        <img src={Image} className="image_selector" />
                     </div>
                     <Footer />
                 </>
