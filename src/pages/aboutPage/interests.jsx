@@ -46,7 +46,7 @@ const Intrests = () => {
                         <div className='icon__wrapper'>
                             <img src={Bitcoin} className='icon__selector' />
                             <h3 className='icon__text'>
-                                Bitcoin & Crypto Curreny
+                                Bitcoin & Crypto Currency
                             </h3>
                         </div>
                     </div>
