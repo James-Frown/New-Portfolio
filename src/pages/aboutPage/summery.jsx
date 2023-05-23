@@ -2,7 +2,7 @@
 import ProfileImage from "../../assets/images/ProfileImg_1.jpg";
 
 // importing my resume
-import MyResume from "../../assets/resume/JamesBrown-Resume-2023-New.pdf";
+import MyResume from "../../assets/resume/JamesBrown-Resume-2023-Best.pdf";
 
 // importing styling
 import './summery.css';
