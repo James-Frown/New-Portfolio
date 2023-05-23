@@ -20,12 +20,6 @@ const Intrests = () => {
                     </div>
                     <div className='content__icons__wrapper'>
                         <div className='icon__wrapper'>
-                            <img src={Blockchain} className='icon__selector' />
-                            <h3 className='icon__text'>
-                                BlockChain Technology
-                            </h3>
-                        </div>
-                        <div className='icon__wrapper'>
                             <img src={Responsive} className='icon__selector' />
                             <h3 className='icon__text'>
                                 Responsive Web Design
@@ -43,7 +37,12 @@ const Intrests = () => {
                                 Software Development
                             </h3>
                         </div>
-
+                        <div className='icon__wrapper'>
+                            <img src={Blockchain} className='icon__selector' />
+                            <h3 className='icon__text'>
+                                BlockChain Technology
+                            </h3>
+                        </div>
                         <div className='icon__wrapper'>
                             <img src={Bitcoin} className='icon__selector' />
                             <h3 className='icon__text'>
