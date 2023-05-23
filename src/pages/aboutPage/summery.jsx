@@ -3,7 +3,6 @@ import ProfileImage from "../../assets/images/ProfileImage.jpg";
 
 // importing my resume
 import MyResume from "../../assets/resume/JamesBrown-Resume-2023.pdf";
-import MyResumeDark from "../../assets/resume/JamesBrown-Resume-2023-Dark.pdf";
 
 // importing styling
 import './summery.css';
