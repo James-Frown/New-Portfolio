@@ -20,12 +20,6 @@ const Intrests = () => {
                     </div>
                     <div className='content__icons__wrapper'>
                         <div className='icon__wrapper'>
-                            <img src={Bitcoin} className='icon__selector' />
-                            <h3 className='icon__text'>
-                                Bitcoin & Crypto Curreny
-                            </h3>
-                        </div>
-                        <div className='icon__wrapper'>
                             <img src={Blockchain} className='icon__selector' />
                             <h3 className='icon__text'>
                                 BlockChain Technology
@@ -47,6 +41,13 @@ const Intrests = () => {
                             <img src={Sourcecode} className='icon__selector' />
                             <h3 className='icon__text'>
                                 Software Development
+                            </h3>
+                        </div>
+
+                        <div className='icon__wrapper'>
+                            <img src={Bitcoin} className='icon__selector' />
+                            <h3 className='icon__text'>
+                                Bitcoin & Crypto Curreny
                             </h3>
                         </div>
                     </div>
