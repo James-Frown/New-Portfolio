@@ -93,7 +93,7 @@ const Code = () => {
             </div>
             <div className='wrapper__center'>
                 <h2 className='wrapper__title'>
-                    Future Development langauges
+                    Future Development Languages
                 </h2>
                 <div className='wrapper__wrap'>
                     <div>
