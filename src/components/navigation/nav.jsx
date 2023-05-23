@@ -53,7 +53,7 @@ const Nav = () => {
                 <nav className="Nav__Container">
                     <a className="Nav__Logo">
                         <Link exact to="/" className="Nav__Logo">
-                            {"<James-Frown>"}
+                            {"<James-Brown>"}
                         </Link>
                     </a>
                     {Nav}
