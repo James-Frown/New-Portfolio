@@ -1,5 +1,5 @@
 // importing profile image
-import ProfileImage from "../../assets/images/ProfileImage.jpg"
+import HeroImage from "../../assets/images/ProfileImg_2.PNG";
 
 // importing routes
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ const Hero = () => {
         <>
             <div className='Hero__Container'>
                 <div className='Image__Wrapper'>
-                    <img src={ProfileImage} className='Image__Selector' />
+                    <img src={HeroImage} className='Image__Selector' />
                 </div>
                 <div className='Text__Wrapper'>
                     <p className='Text__1'>
