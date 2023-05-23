@@ -15,7 +15,7 @@ const Intrests = () => {
                 <div className='intrests__content'>
                     <div className='content__title__wrapper'>
                         <h1 className='content__title'>
-                            My Intrests:
+                            My Interests:
                         </h1>
                     </div>
                     <div className='content__icons__wrapper'>
