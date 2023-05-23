@@ -2,6 +2,9 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
+// importing image
+import Image from "../../assets/images/ProfileImg_2.jpg";
+
 // importing page elements
 import Nav from "../../components/navigation/nav";
 import Footer from "../../components/footer/footer";
@@ -83,9 +86,14 @@ const Projects = () => {
             ) : (
                 <>
                     <Nav />
-                    <h1>
-                        In Development
-                    </h1>
+                    <div>
+                        <h1>
+                            In Development
+                        </h1>
+                    </div>
+                    <div>
+                        <img src={Image} />
+                    </div>
                     <Footer />
                 </>
             )}
