@@ -32,9 +32,6 @@ const Summery = () => {
                             Resume
                         </a>
                         <span className="cta_spacing"></span>
-                        <a href={MyResumeDark} className="cta__button" target="_blank" rel="noreferrer">
-                            Resume-Dark
-                        </a>
                     </div>
                 </div>
             </div>
