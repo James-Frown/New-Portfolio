@@ -1,5 +1,5 @@
 // importing profile image
-import ProfileImage from "../../assets/images/ProfileImage.jpg";
+import ProfileImage from "../../assets/images/ProfileImg_1.PNG";
 
 // importing my resume
 import MyResume from "../../assets/resume/JamesBrown-Resume-2023.pdf";
