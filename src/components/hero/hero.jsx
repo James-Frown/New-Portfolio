@@ -1,5 +1,5 @@
 // importing profile image
-import HeroImage from "../../assets/images/ProfileImg_2.PNG";
+import HeroImage from "../../assets/images/ProfileImg_3.jpg";
 
 // importing routes
 import { Link } from 'react-router-dom';
