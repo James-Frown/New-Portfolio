@@ -16,6 +16,14 @@
     text-align: center;
 }
 
+.image_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .image_selector {
     display: flex;
     justify-content: center;
