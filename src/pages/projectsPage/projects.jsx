@@ -91,7 +91,7 @@ const Projects = () => {
                             In Development
                         </h1>
                     </div>
-                    <div>
+                    <div className="image_selector" >
                         <img src={Image} className="image_selector" />
                     </div>
                     <Footer />
