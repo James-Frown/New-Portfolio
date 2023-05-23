@@ -23,4 +23,6 @@
     text-align: center;
     object-fit: cover;
     border-radius: 10px;
+    width: 200px;
+    height: 200px;
 }
