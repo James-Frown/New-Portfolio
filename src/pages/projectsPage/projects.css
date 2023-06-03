@@ -40,7 +40,7 @@
 .project_card {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1.5rem;
     flex-direction: row;
     flex-wrap: wrap;
