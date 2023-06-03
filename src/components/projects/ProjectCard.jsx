@@ -5,6 +5,8 @@ const ProjectCard = (props) => {
     // eslint-disable-next-line react/prop-types
     var title = props.title;
     // eslint-disable-next-line react/prop-types
+    var subtitle = props.subtitle;
+    // eslint-disable-next-line react/prop-types
     var link = props.link;
     // eslint-disable-next-line react/prop-types
     var description = props.description;
@@ -32,6 +34,10 @@ const ProjectCard = (props) => {
                             className="project_card_title">
                             {title}
                         </h2>
+                        <h3
+                            className="project_card_subtitle">
+                            {subtitle}
+                        </h3>
                         <p
                             className="project_card_description">
                             {description}

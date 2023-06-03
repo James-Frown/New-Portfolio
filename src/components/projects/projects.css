@@ -27,15 +27,26 @@
 }
 
 .project_card_title {
-    font-size: larger;
+    font-size: x-large;
     font-style: oblique;
     padding: 1rem;
     margin: 0;
 }
 
+.project_card_subtitle {
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+    padding-bottom: 0.8rem;
+    margin: 0;
+}
+
 .project_card_description {
     font-size: medium;
-    font-style: italic;
-    padding: 0.5rem;
+    font-style: normal;
+    padding-top: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
     margin: 0;
 }
