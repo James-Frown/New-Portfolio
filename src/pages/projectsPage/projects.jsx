@@ -95,7 +95,7 @@ const Projects = () => {
                             My Projects
                         </h1>
                     </div>
-                    <div className="project_card_wrapper">
+                    <div className="project_card">
                         <ProjectCard
                             title="Tutorial Project - NextJS Image Gallery"
                             link="https://next-js-tutorial-1.vercel.app/"

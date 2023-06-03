@@ -37,7 +37,7 @@
     height: 200px;
 }
 
-.project_card_wrapper {
+.project_card {
     display: flex;
     justify-content: center;
     align-items: center;
