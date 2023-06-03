@@ -95,7 +95,13 @@ const Projects = () => {
                             My Projects
                         </h1>
                     </div>
-                    <div>
+                    <div className="project_card_wrapper">
+                        <ProjectCard
+                            title="Tutorial Project - NextJS Image Gallery"
+                            link="https://next-js-tutorial-1.vercel.app/"
+                            description="This was a project i undertook to try and learn more about NextJS, by Coding In Flow."
+                            thumbnail={NextJSTutorial}
+                        />
                         <ProjectCard
                             title="Tutorial Project - NextJS Image Gallery"
                             link="https://next-js-tutorial-1.vercel.app/"
@@ -104,8 +110,8 @@ const Projects = () => {
                         />
                     </div>
                     <div className="image_wrapper" >
-                        <img src={Image} className="image_selector" />
-                    </div>
+                            <img src={Image} className="image_selector" />
+                        </div>
                     <Footer />
                 </>
             )}

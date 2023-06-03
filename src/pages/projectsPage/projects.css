@@ -36,3 +36,13 @@
     width: 200px;
     height: 200px;
 }
+
+.project_card_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}

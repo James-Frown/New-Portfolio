@@ -41,7 +41,7 @@
 }
 
 .Nav__Menu__Mobile {
-    display: hidden;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
