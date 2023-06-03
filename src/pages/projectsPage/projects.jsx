@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 // importing image
 import Image from "../../assets/images/ProfileImg_2.jpg";
+import NextJSTutorial from "../../assets/projects/NextJS-Tutorial-1.jpg";
 
 // importing page elements
 import Nav from "../../components/navigation/nav";
@@ -11,6 +12,9 @@ import Footer from "../../components/footer/footer";
 
 // Element Styling import
 import './projects.css';
+
+// importing project card
+import ProjectCard from "../../components/projects/ProjectCard";
 
 const Projects = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -88,8 +92,16 @@ const Projects = () => {
                     <Nav />
                     <div>
                         <h1>
-                            In Development
+                            My Projects
                         </h1>
+                    </div>
+                    <div>
+                        <ProjectCard
+                            title="Tutorial Project - NextJS Image Gallery"
+                            link="https://next-js-tutorial-1.vercel.app/"
+                            description="This was a project i undertook to try and learn more about NextJS, by Coding In Flow."
+                            thumbnail={NextJSTutorial}
+                        />
                     </div>
                     <div className="image_wrapper" >
                         <img src={Image} className="image_selector" />
