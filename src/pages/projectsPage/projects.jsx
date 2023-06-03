@@ -8,6 +8,7 @@ import NextJSTutorial from "../../assets/projects/NextJS-Tutorial-1.jpg";
 import BasicNFT from "../../assets/projects/Basic-NFT.jpg";
 import BasicProduct from "../../assets/projects/Basic-Product.jpg";
 import BasicSaaS from "../../assets/projects/Basic-SaaS.jpg";
+import BasicClone from "../../assets/projects/Basic-Netflix.jpg";
 
 // importing page elements
 import Nav from "../../components/navigation/nav";
@@ -98,13 +99,25 @@ const Projects = () => {
                             My Projects
                         </h1>
                     </div>
-                    <div className="project_card">
+                    <div>
+                        <h2>
+                            Basic Sites:
+                        </h2>
+                    </div>
+                    <div className="project_cards">
                         <ProjectCard
                             title="Tutorial Project"
                             subtitle="NextJS Image Gallery"
                             link="https://next-js-tutorial-1.vercel.app/"
-                            description="This was a project I undertook to try and learn more about NextJS, by Coding In Flow."
+                            description="This was a project I undertook to try and learn more about NextJS, from a tutorial by Coding In Flow."
                             thumbnail={NextJSTutorial}
+                        />
+                        <ProjectCard
+                            title="Tutorial Project"
+                            subtitle="Basic Netflix Clone"
+                            link="https://basic-streaming-clone.netlify.app/"
+                            description="This was a project I tried to cpoy the look and feel of soap2day, and Netflix inorder to make a fake streaming service."
+                            thumbnail={BasicClone}
                         />
                         <ProjectCard
                             title="Tutorial Project"
@@ -113,6 +126,13 @@ const Projects = () => {
                             description="This was a project I tried to copy the look and feel of a SaaS site for a university project, however it was left unfinnished."
                             thumbnail={BasicSaaS}
                         />
+                    </div>
+                    <div>
+                        <h2>
+                            Digital Products:
+                        </h2>
+                    </div>
+                    <div className="project_cards">
                         <ProjectCard
                             title="Tutorial Project"
                             subtitle="Basic Product Card"
@@ -121,7 +141,7 @@ const Projects = () => {
                             thumbnail={BasicProduct}
                         />
                         <ProjectCard
-                            title="Tutorial Project - Basic NFT Card"
+                            title="Tutorial Project"
                             subtitle="Basic NFT Card"
                             link="https://basic-nft-card.netlify.app/"
                             description="This was a project I undertook to try and copy the look and feel of NFT's."

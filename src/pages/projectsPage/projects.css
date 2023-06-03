@@ -37,7 +37,7 @@
     height: 200px;
 }
 
-.project_card {
+.project_cards {
     display: flex;
     justify-content: center;
     align-items: flex-start;
