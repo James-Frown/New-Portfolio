@@ -100,16 +100,21 @@ const Projects = () => {
             <h1>My Projects</h1>
           </div>
           <div>
-            <h2>Basic Sites:</h2>
+            <h2>Intermediate Sites:</h2>
           </div>
           <div className="project_cards">
             <ProjectCard
-              title="Tutorial Project"
+              title="Full Stack Tutorial Project"
               subtitle="NextJS Ecommerce Store"
               link="https://next-store-james-frown.vercel.app/"
-              description="I Learnt about NextJS, API's, MongoDB, Next-Auth, Server Actions, Prisma and so much more! It is by Coding In Flow."
+              description="This Project demonstrates cutting-edge technologies such as Next.js, MongoDB, Next-Auth, API integration, Server Actions, and Prisma. I have created a dynamic e-commerce platform with secure user authentication,  and an ecommerce platform with Prisma and Next.js. As I look forward, I'm excited to incorporate further skills such as Web Scraping, Typescript, and Puppeteer for comprehensive and seamless web development solutions."
               thumbnail={vercelLogo}
             />
+          </div>
+          <div>
+            <h2>Basic Sites:</h2>
+          </div>
+          <div className="project_cards">
             <ProjectCard
               title="Tutorial Project"
               subtitle="NextJS Image Gallery"
