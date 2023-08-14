@@ -20,6 +20,9 @@ import IconVercel from "../../assets/skills/code/Vercel-Icon.svg";
 import IconMongo from "../../assets/skills/code/MongoDB_Icon.svg";
 import IconBit from "../../assets/skills/code/BitBucket_Icon.svg";
 import IconNode from "../../assets/skills/code/NodeJs_Icon.svg";
+import IconDaisyUI from "../../assets/skills/code/DaisyUI_Icon.svg";
+import IconChakara from "../../assets/skills/code/Chakra_Icon.jpg";
+import IconBootStrap from "../../assets/skills/code/BootStrapUI_Icon.svg";
 
 // importing styling
 import "./filterSkills.css";
@@ -27,6 +30,31 @@ import "./filterSkills.css";
 const Code = () => {
   return (
     <>
+      <div className="wrapper__center">
+        <h2 className="wrapper__title">Introduction</h2>
+        <div className="wrapper__wrap">
+          <div>
+            <img className="icon__selector" src={IconJava} />
+          </div>
+          <div>
+            <img className="icon__selector" src={IconMySql} />
+          </div>
+        </div>
+      </div>
+      <div className="wrapper__center">
+        <h2 className="wrapper__title">Foundations</h2>
+        <div className="wrapper__wrap">
+          <div>
+            <img className="icon__selector" src={IconCSS3} />
+          </div>
+          <div>
+            <img className="icon__selector" src={IconHTML} />
+          </div>
+          <div>
+            <img className="icon__selector" src={IconJS} />
+          </div>
+        </div>
+      </div>
       <div className="wrapper__center">
         <h2 className="wrapper__title">Source Control</h2>
         <div className="wrapper__wrap">
@@ -42,27 +70,7 @@ const Code = () => {
         </div>
       </div>
       <div className="wrapper__center">
-        <h2 className="wrapper__title">Foundational Skills</h2>
-        <div className="wrapper__wrap">
-          <div>
-            <img className="icon__selector" src={IconJava} />
-          </div>
-          <div>
-            <img className="icon__selector" src={IconMySql} />
-          </div>
-          <div>
-            <img className="icon__selector" src={IconCSS3} />
-          </div>
-          <div>
-            <img className="icon__selector" src={IconHTML} />
-          </div>
-          <div>
-            <img className="icon__selector" src={IconJS} />
-          </div>
-        </div>
-      </div>
-      <div className="wrapper__center">
-        <h2 className="wrapper__title">Current Front-End Languages</h2>
+        <h2 className="wrapper__title">Front-End Frameworks</h2>
         <div className="wrapper__wrap">
           <div>
             <img className="icon__selector" src={IconNextJs} />
@@ -76,15 +84,27 @@ const Code = () => {
           <div>
             <img className="icon__selector" src={IconTypeScript} />
           </div>
+        </div>
+      </div>
+      <div className="wrapper__center">
+        <h2 className="wrapper__title">CSS Frameworks</h2>
+        <div className="wrapper__wrap">
           <div>
             <img className="icon__selector" src={IconTailwind} />
+          </div>
+          <div>
+            <img className="icon__selector" src={IconDaisyUI} />
+          </div>
+          <div>
+            <img className="icon__selector rounded" src={IconChakara} />
+          </div>
+          <div>
+            <img className="icon__selector" src={IconBootStrap} />
           </div>
         </div>
       </div>
       <div className="wrapper__center">
-        <h2 className="wrapper__title">
-          Online Deployment & Database Management
-        </h2>
+        <h2 className="wrapper__title">Deployment, DB & Full Stack</h2>
         <div className="wrapper__wrap">
           <div>
             <img className="icon__selector" src={IconNetlify} />
@@ -100,8 +120,8 @@ const Code = () => {
           </div>
         </div>
       </div>
-      <div className="wrapper__center">
-        <h2 className="wrapper__title">Future Frameworks & Skills</h2>
+      <div className="wrapper__center Padding_B">
+        <h2 className="wrapper__title">Future Skills</h2>
         <div className="wrapper__wrap">
           <div>
             <img className="icon__selector" src={IconStoryBook} />

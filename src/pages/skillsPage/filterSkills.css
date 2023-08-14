@@ -88,4 +88,13 @@
     flex-wrap: wrap;
 }
 
+.rounded {
+    border-radius: 100rem;
+}
+
+.Padding_B {
+    padding-bottom: 3rem;
+}
+
 @media (max-width: 850px) {}
+
