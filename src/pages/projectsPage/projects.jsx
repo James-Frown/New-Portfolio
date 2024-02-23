@@ -9,6 +9,7 @@ import BasicNFT from "../../assets/projects/Basic-NFT.jpg";
 import BasicProduct from "../../assets/projects/Basic-Product.jpg";
 import BasicSaaS from "../../assets/projects/Basic-SaaS.jpg";
 import BasicClone from "../../assets/projects/Basic-Netflix.jpg";
+import BasicCalc from "../../assets/projects/Basic-Calculator.jpg";
 
 // importing page elements
 import Nav from "../../components/navigation/nav";
@@ -30,7 +31,8 @@ const Projects = () => {
     }, 3000);
   });
 
-  const vercelLogo = "https://yt3.googleusercontent.com/ytc/AOPolaTWbjhVRtPrUtUPqrx3NFAP57KRFK9BDInW_GNlLw=s176-c-k-c0x00ffffff-no-rj-mo";
+  const vercelLogo =
+    "https://yt3.googleusercontent.com/ytc/AOPolaTWbjhVRtPrUtUPqrx3NFAP57KRFK9BDInW_GNlLw=s176-c-k-c0x00ffffff-no-rj-mo";
 
   return (
     <>
@@ -100,7 +102,7 @@ const Projects = () => {
             <h1>My Projects</h1>
           </div>
           <div>
-            <h2>Intermediate Sites:</h2>
+            <h2>FullStack Sites:</h2>
           </div>
           <div className="project_cards">
             <ProjectCard
@@ -112,7 +114,7 @@ const Projects = () => {
             />
           </div>
           <div>
-            <h2>Basic Sites:</h2>
+            <h2>Intermediate Sites:</h2>
           </div>
           <div className="project_cards">
             <ProjectCard
@@ -129,12 +131,24 @@ const Projects = () => {
               description="This was a project I tried to cpoy the look and feel of soap2day, and Netflix inorder to make a fake streaming service."
               thumbnail={BasicClone}
             />
+          </div>
+          <div>
+            <h2>Basic Sites:</h2>
+          </div>
+          <div className="project_cards">
             <ProjectCard
               title="Tutorial Project"
-              subtitle="Basic SaaS Site"
+              subtitle="Basic SaaS Landing Page"
               link="https://basic-saas-website.netlify.app/"
               description="This was a project I tried to copy the look and feel of a SaaS site for a university project, however it was left unfinnished."
               thumbnail={BasicSaaS}
+            />
+            <ProjectCard
+              title="Tutorial Project"
+              subtitle="Basic Calculator"
+              link="https://basic-calculator-james.netlify.app/"
+              description="This was a project I tried to copy the look and feel of a SaaS site for a university project, however it was left unfinnished."
+              thumbnail={BasicCalc}
             />
           </div>
           <div>
