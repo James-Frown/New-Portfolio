@@ -10,6 +10,7 @@ import BasicProduct from "../../assets/projects/Basic-Product.jpg";
 import BasicSaaS from "../../assets/projects/Basic-SaaS.jpg";
 import BasicClone from "../../assets/projects/Basic-Netflix.jpg";
 import BasicCalc from "../../assets/projects/Basic-Calculator.jpg";
+import BasicDiscode from "../../assets/projects/Discode.jpg";
 
 // importing page elements
 import Nav from "../../components/navigation/nav";
@@ -111,6 +112,13 @@ const Projects = () => {
               link="https://next-store-james-frown.vercel.app/"
               description="This Project demonstrates cutting-edge technologies such as Next.js, MongoDB, Next-Auth, API integration, Server Actions, and Prisma. I have created a dynamic e-commerce platform with secure user authentication,  and an ecommerce platform with Prisma and Next.js. As I look forward, I'm excited to incorporate further skills such as Web Scraping, Typescript, and Puppeteer for comprehensive and seamless web development solutions."
               thumbnail={vercelLogo}
+            />
+            <ProjectCard
+              title="Full Stack Tutorial Project"
+              subtitle="NextJS Discord Clone"
+              link="https://discode-v1-production.up.railway.app/"
+              description="Introducing a tutorial project showcasing a feature-rich messaging app powered by Socket.io. Enjoy real-time messaging with UploadThing for seamless file sharing. Experience unique delete/edit functions, 1:1 text, audio, and video calls, and robust member management features. The app boasts a beautiful UI with TailwindCSS, ShadcnUI, and responsive design. Enhance reliability with WebSocket fallback, backed by Prisma ORM and a secure MySQL database from Planetscale. Elevate user authentication with Clerk for a seamless and secure experience. Dive into the future of messaging with this tutorial project, perfect for your portfolio."
+              thumbnail={BasicDiscode}
             />
           </div>
           <div>
