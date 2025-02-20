@@ -1,61 +1,125 @@
 .summery__wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .summery__image__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 4rem;
 }
 
 .image__selector {
-    display: block;
-    object-fit: cover;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 1rem;
-    text-align: center;
+  display: block;
+  object-fit: cover;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  text-align: center;
 }
 
 .summery__content__wrapper {
-    display: flex;
-    flex-direction: column;
-    padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
 }
 
 .content__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .text__selector {
-    font-size: medium;
-    padding: 0;
-    margin: 0;
+  font-size: medium;
+  padding: 0;
+  margin: 0;
 }
 
 .cta__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 4rem;
 }
 
 .cta_spacing {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .cta__button {
+  background-color: #242424;
+  color: #ffffff;
+  border: solid white 2px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  font-size: 18px;
+  padding: 0.5rem;
+}
+.cta__button:hover {
+  background-color: #ffffff;
+  color: #242424;
+  scale: 110%;
+}
+
+@media (max-width: 850px) {
+  .summery__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .summery__image__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .image__selector {
+    display: block;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 10rem;
+    text-align: center;
+  }
+  .summery__content__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .content__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .text__selector {
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+  }
+  .cta__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.5rem;
+  }
+  .cta__button {
     background-color: #242424;
     color: #ffffff;
     border: solid white 2px;
@@ -65,64 +129,5 @@
     transition: 0.3s ease;
     font-size: 18px;
     padding: 0.5rem;
-}
-
-@media (max-width: 850px) {
-    .summery__wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-    .summery__image__wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    .image__selector {
-        display: block;
-        object-fit: cover;
-        width: 150px;
-        height: 150px;
-        border-radius: 10rem;
-        text-align: center;
-    }
-    .summery__content__wrapper {
-        display: flex;
-        flex-direction: column;
-        padding: 0.5rem;
-    }
-    .content__text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .text__selector {
-        font-size: medium;
-        padding: 0;
-        margin: 0;
-    }
-    .cta__wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        padding-top: 1.5rem;
-    }
-    .cta__button {
-        background-color: #242424;
-        color: #ffffff;
-        border: solid white 2px;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 6px;
-        transition: 0.3s ease;
-        font-size: 18px;
-        padding: 0.5rem;
-    }
+  }
 }
