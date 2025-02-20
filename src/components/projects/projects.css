@@ -6,6 +6,10 @@
     border-radius: 10px;
 }
 
+.project_card_container:hover {
+    scale: 102%;
+}
+
 .project_card_wrapper {
     display: flex;
     flex-direction: column;
