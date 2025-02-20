@@ -23,6 +23,7 @@ import IconNode from "../../assets/skills/code/NodeJs_Icon.svg";
 import IconDaisyUI from "../../assets/skills/code/DaisyUI_Icon.svg";
 import IconChakara from "../../assets/skills/code/Chakra_Icon.jpg";
 import IconBootStrap from "../../assets/skills/code/BootStrapUI_Icon.svg";
+import IconPython from "../../assets/skills/code/Python_Icon.svg";
 
 // importing styling
 import "./filterSkills.css";
@@ -134,6 +135,9 @@ const Code = () => {
           </div>
           <div>
             <img className="icon__selector" src={IconNode} />
+          </div>
+          <div>
+            <img className="icon__selector" src={IconPython} />
           </div>
         </div>
       </div>
