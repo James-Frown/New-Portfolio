@@ -5,6 +5,8 @@ import IconAPS from '../../assets/skills/design/AdobePhotoshop_Icon.svg';
 import IconAPP from '../../assets/skills/design/AdobePremierePro_Icon.svg';
 import IconAXD from '../../assets/skills/design/AdobeXD_Icon.svg';
 import IconFIGMA from '../../assets/skills/design/Figma_Icon.svg';
+import IconWEBFLOW from '../../assets/skills/design/Webflow_Icon.svg';
+import IconWIX from '../../assets/skills/design/Wix_Icon.svg';
 
 // importing styling
 import './filterSkills.css';
@@ -41,6 +43,12 @@ const Design = () => {
                 <div className='wrapper__wrap'>
                     <div>
                         <img className='icon__selector' src={IconFIGMA} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconWEBFLOW} />
+                    </div>
+                    <div>
+                        <img className='icon__selector' src={IconWIX} />
                     </div>
                 </div>
             </div>
