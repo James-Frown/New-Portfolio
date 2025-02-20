@@ -16,7 +16,7 @@ const Landing = () => {
         // set a timer to change isLoading state after 3 seconds
         setTimeout(() => {
             setIsLoading(false);
-        }, 3000);
+        }, 2200);
     });
 
     return (
