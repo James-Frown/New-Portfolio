@@ -2,7 +2,8 @@
 import ProfileImage from "../../assets/images/ProfileImg_1.jpg";
 
 // importing my resume
-import MyResume from "../../assets/resume/JamesBrown-Resume-2023-Best.pdf";
+import DesignResume from "../../assets/resume/James-Brown-Designer-2-2025.pdf";
+import DevResume from "../../assets/resume/James-Brown-Developer-2025.pdf";
 
 // importing styling
 import './summery.css';
@@ -27,10 +28,10 @@ const Summery = () => {
                         </p>
                     </div>
                     <div className='cta__wrapper'>
-                        <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
+                        <a href={DevResume} className="cta__button" target="_blank" rel="noreferrer">
                             Developer Resume
                         </a>
-                        <a href={MyResume} className="cta__button" target="_blank" rel="noreferrer">
+                        <a href={DesignResume} className="cta__button" target="_blank" rel="noreferrer">
                             Designer Resume
                         </a>
                     </div>
