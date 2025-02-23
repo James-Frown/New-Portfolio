@@ -31,9 +31,6 @@ const Summery = () => {
                         <a href={DevResume} className="cta__button" target="_blank" rel="noreferrer">
                             Developer Resume
                         </a>
-                        <a href={DesignResume} className="cta__button" target="_blank" rel="noreferrer">
-                            Designer Resume
-                        </a>
                     </div>
                 </div>
             </div>
