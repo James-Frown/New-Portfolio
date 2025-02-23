@@ -2,7 +2,6 @@
 import ProfileImage from "../../assets/images/ProfileImg_1.jpg";
 
 // importing my resume
-import DesignResume from "../../assets/resume/James-Brown-Designer-2-2025.pdf";
 import DevResume from "../../assets/resume/James-Brown-Developer-2025.pdf";
 
 // importing styling
