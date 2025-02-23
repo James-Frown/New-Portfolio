@@ -110,14 +110,14 @@ const Projects = () => {
               title="Full Stack Tutorial Project"
               subtitle="NextJS Ecommerce Store"
               link="https://next-store-james-frown.vercel.app/"
-              description="This Project demonstrates cutting-edge technologies such as Next.js, MongoDB, Next-Auth, API integration, Server Actions, and Prisma. I have created a dynamic e-commerce platform with secure user authentication,  and an ecommerce platform with Prisma and Next.js. As I look forward, I'm excited to incorporate further skills such as Web Scraping, Typescript, and Puppeteer for comprehensive and seamless web development solutions."
+              description="This project uses Next.js, MongoDB, Next-Auth, API integration, and Prisma in an e-commerce platform with secure authentication. I aim to expand with Web Scraping, TypeScript, and Puppeteer."
               thumbnail={vercelLogo}
             />
             <ProjectCard
               title="Full Stack Tutorial Project"
               subtitle="NextJS Discord Clone"
               link="https://discode-v1-production.up.railway.app/"
-              description="Introducing a tutorial project showcasing a feature-rich messaging app powered by Socket.io. Enjoy real-time messaging with UploadThing for seamless file sharing. Experience unique delete/edit functions, 1:1 text, audio, and video calls, and robust member management features. The app boasts a beautiful UI with TailwindCSS, ShadcnUI, and responsive design. Enhance reliability with WebSocket fallback, backed by Prisma ORM and a secure MySQL database from Planetscale. Elevate user authentication with Clerk for a seamless and secure experience. Dive into the future of messaging with this tutorial project, perfect for your portfolio."
+              description="This tutorial project features a messaging app with real-time chat, file sharing via UploadThing, 1:1 calls, and robust member management. Built with TailwindCSS, ShadcnUI, Prisma, MySQL, and Clerk for secure authentication."
               thumbnail={BasicDiscode}
             />
           </div>
@@ -174,7 +174,7 @@ const Projects = () => {
               title="Tutorial Project"
               subtitle="Basic NFT Card"
               link="https://basic-nft-card.netlify.app/"
-              description="This was a project I undertook to try and copy the look and feel of NFT's."
+              description="This project was an attempt to replicate the look and feel of NFTs, capturing their unique style and essence."
               thumbnail={BasicNFT}
             />
           </div>
