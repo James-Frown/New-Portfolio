@@ -7,10 +7,10 @@ import Image from "../../assets/images/ProfileImg_2.jpg";
 import NextJSTutorial from "../../assets/projects/NextJS-Tutorial-1.jpg";
 import BasicNFT from "../../assets/projects/Basic-NFT.jpg";
 import BasicProduct from "../../assets/projects/Basic-Product.jpg";
-import BasicSaaS from "../../assets/projects/Basic-SaaS.jpg";
-import BasicClone from "../../assets/projects/Basic-Netflix.jpg";
-import BasicCalc from "../../assets/projects/Basic-Calculator.jpg";
+import BasicClone from "../../assets/projects/movies-icon.jpg";
 import BasicDiscode from "../../assets/projects/Discode.jpg";
+import MajorHair from "../../assets/projects/Major-Star-Hair-icon.jpg";
+import FunStore from "../../assets/projects/store-icon.jpg";
 
 // importing page elements
 import Nav from "../../components/navigation/nav";
@@ -21,6 +21,7 @@ import "./projects.css";
 
 // importing project card
 import ProjectCard from "../../components/projects/ProjectCard";
+import FeaturedProject from "../../components/projects/FeaturedProject";
 
 const Projects = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,10 +32,6 @@ const Projects = () => {
       setIsLoading(false);
     }, 2200);
   });
-
-  const vercelLogo =
-    "https://yt3.googleusercontent.com/ytc/AOPolaTWbjhVRtPrUtUPqrx3NFAP57KRFK9BDInW_GNlLw=s176-c-k-c0x00ffffff-no-rj-mo";
-
   return (
     <>
       {isLoading ? (
@@ -103,6 +100,18 @@ const Projects = () => {
             <h1>My Projects</h1>
           </div>
           <div>
+            <h2>Featured Project:</h2>
+          </div>
+          <div className="featured_project">
+            <FeaturedProject
+              title="Major Hair Cape Town"
+              subtitle="Custom Frontend with Wix Headless"
+              link="https://google.com"
+              description="A sleek Next.js & Wix Headless store for a local hairdresser—fast, modern, and easy to manage. Book appointments & shop hair products hassle-free! 🚀✨"
+              thumbnail={MajorHair}
+            />
+          </div>
+          <div>
             <h2>FullStack Sites:</h2>
           </div>
           <div className="project_cards">
@@ -111,7 +120,7 @@ const Projects = () => {
               subtitle="NextJS Ecommerce Store"
               link="https://next-store-james-frown.vercel.app/"
               description="This project uses Next.js, MongoDB, Next-Auth, API integration, and Prisma in an e-commerce platform with secure authentication. I aim to expand with Web Scraping, TypeScript, and Puppeteer."
-              thumbnail={vercelLogo}
+              thumbnail={FunStore}
             />
             <ProjectCard
               title="Full Stack Tutorial Project"
@@ -134,33 +143,14 @@ const Projects = () => {
             />
             <ProjectCard
               title="Tutorial Project"
-              subtitle="Basic Netflix Clone"
+              subtitle="Streaming Site Clone"
               link="https://basic-streaming-clone.netlify.app/"
-              description="This was a project I tried to cpoy the look and feel of soap2day, and Netflix inorder to make a fake streaming service."
+              description="This was a project I tried to cpoy the look and feel of soap2day, and Netflix inorder to make a realistic streaming service."
               thumbnail={BasicClone}
             />
           </div>
           <div>
-            <h2>Basic Sites:</h2>
-          </div>
-          <div className="project_cards">
-            <ProjectCard
-              title="Tutorial Project"
-              subtitle="Basic SaaS Landing Page"
-              link="https://basic-saas-website.netlify.app/"
-              description="This was a project I tried to copy the look and feel of a SaaS site for a university project, however it was left unfinnished."
-              thumbnail={BasicSaaS}
-            />
-            <ProjectCard
-              title="Tutorial Project"
-              subtitle="Basic Calculator"
-              link="https://basic-calculator-james.netlify.app/"
-              description="This was a project I tried to copy the look and feel of a SaaS site for a university project, however it was left unfinnished."
-              thumbnail={BasicCalc}
-            />
-          </div>
-          <div>
-            <h2>Digital Products:</h2>
+            <h2>Digital Product Cards:</h2>
           </div>
           <div className="project_cards">
             <ProjectCard

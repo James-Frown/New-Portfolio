@@ -4,31 +4,34 @@
   padding: 1.5rem;
   background-color: white;
   border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .project_card_container:hover {
-  scale: 102%;
+  transform: scale(1.02);
+}
+
+a{
+  text-decoration: none;
 }
 
 .project_card_wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
   align-items: center;
+  text-align: center;
 }
 
 .project_card_thumbnail {
   display: flex;
   justify-content: center;
-  text-align: center;
   padding-bottom: 1rem;
 }
 
 .project_card_content {
   text-decoration: none;
   color: black;
-  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -49,8 +52,81 @@
 
 .project_card_description {
   font-size: medium;
-  font-style: normal;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding: 0 0.5rem;
   margin: 0;
+}
+
+/* Featured Card - Hero Section */
+.featured_card_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .featured_card_container {
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+  }
+}
+
+.featured_card_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 1rem;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .featured_card_wrapper {
+    text-align: center;
+  }
+}
+
+.featured_card_thumbnail {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.featured_card_subtitle {
+  font-size: large;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0;
+}
+
+.featured_card_description {
+  font-size: medium;
+  max-width: 500px;
+  padding: 0 0.5rem;
+}
+
+.featured_card_Link {
+  display: inline-block;
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  background-color: #242424;
+  color: whitesmoke;
+  margin: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.featured_card_Link:hover {
+  transform: scale(1.15);
+}
+
+.featured_image_selector{
+  width: 300px;
+  height: 300px;
 }

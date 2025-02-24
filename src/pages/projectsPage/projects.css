@@ -46,3 +46,12 @@
     flex-wrap: wrap;
     padding: 0.2rem;
 }
+
+.featured_project{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
