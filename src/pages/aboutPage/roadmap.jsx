@@ -83,7 +83,7 @@ const RoadMap = () => {
             <div className="text__wrapper">
               <div className="text_heading_wrapper">
                 <h3 className="heading__text">
-                  Exploring Backend, Systems & Advanced Interaction Design
+                  Exploring Backend & Interaction Design
                 </h3>
                 <h3 className="heading__text">2025</h3>
               </div>
