@@ -12,8 +12,6 @@
   padding: 2rem;
   padding-left: 5%;
   padding-right: 5%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .content__title__wrapper {
@@ -39,7 +37,6 @@
   background: #fff;
   padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .text_heading_wrapper {
