@@ -72,6 +72,7 @@
 
   .heading__text {
     font-size: 1.2rem;
+    text-align: left;
   }
 
   .body__text {
